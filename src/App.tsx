@@ -12,8 +12,11 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+          <Route path="/route">
+            This is a route.
+          </Route>
           <Route path="/">
-            This is a path
+            This is the home route
           </Route>
         </Switch>
       </Router>
