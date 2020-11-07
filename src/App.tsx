@@ -24,6 +24,10 @@ function App() {
           </Route>
           <Route path="/">
             Not Found
+            <br />
+            <Link to="/">
+              Go Home
+            </Link>
           </Route>
         </Switch>
       </Router>
