@@ -16,7 +16,11 @@ function App() {
             This is a route.
           </Route>
           <Route path="/">
-            This is the home route
+            <nav>
+              <Link to="/route">
+                Route
+              </Link>
+            </nav>
           </Route>
         </Switch>
       </Router>
