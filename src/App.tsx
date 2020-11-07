@@ -15,12 +15,15 @@ function App() {
           <Route path="/route">
             This is a route.
           </Route>
-          <Route path="/">
+          <Route path="/" exact>
             <nav>
               <Link to="/route">
                 Route
               </Link>
             </nav>
+          </Route>
+          <Route path="/">
+            Not Found
           </Route>
         </Switch>
       </Router>
